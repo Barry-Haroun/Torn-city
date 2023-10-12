@@ -48,14 +48,6 @@ public class PlayerHealth : MonoBehaviour
 
             }
         }
-        //   if (Input.GetKeyUp(KeyCode.G))
-        //   {
-        //       TakeDamage(Random.Range(5, 10));
-        //   }
-        //   if (Input.GetKeyUp(KeyCode.H))
-        //   {
-        //       RestoreHealth(Random.Range(5, 10));
-        //   }
     }
     public void UpdateHealthUI()
     {
