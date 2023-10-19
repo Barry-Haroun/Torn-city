@@ -20,5 +20,6 @@ public class PlayerLook : MonoBehaviour
         Cam.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
         //rotate player to look left and right
         transform.Rotate(Vector3.up * (mouseX * Time.deltaTime) * xSensitivity);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
